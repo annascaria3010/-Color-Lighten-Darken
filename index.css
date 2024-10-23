@@ -1,0 +1,47 @@
+body{
+    background-color: #6c7429;
+    color: #000;
+    
+    
+}
+
+.container{
+    padding: 10px;
+    margin: 25px;
+    background-color: #834d4d;
+    font-size: larger;
+}
+
+.title{
+    color: #949e3e;
+    text-align: center;
+    
+}
+label{
+    display:block;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: #949e3e;
+}
+input{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+input[type="text"]{
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+p{
+    color: #949e3e;
+    margin-left: 10px;
+}
