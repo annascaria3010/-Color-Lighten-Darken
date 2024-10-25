@@ -6,6 +6,7 @@ const alteredColor = document.getElementById('alteredColor');
 const alteredColorText = document.getElementById('alteredColorText');
 
 hexInput.addEventListener('keyup', () => {
+
     const hex= hexInput.value;
     if(!isValidHex(hex)) return;
 
@@ -35,8 +36,8 @@ const convertHexToRGB = (hex) => {
     }
 
     const r = parseInt(strippedHex.substring(0,2),16);
-    const g = parseInt(strippedHex.substring(0,2),16);
-    const b = parseInt(strippedHex.substring(0,2),16);
+    const g = parseInt(strippedHex.substring(2,4),16);
+    const b = parseInt(strippedHex.substring(4,6),16);
 
     return {r,g,b};
 }
